@@ -1,7 +1,0 @@
-# nlm-workspace 도구에 필요한 파이썬 라이브러리 (setup.ps1이 한 번에 설치)
-notebooklm-mcp-cli>=0.12.0   # nlm 명령 (NotebookLM CLI)
-httpx>=0.28                   # fetch_images.py: 소스 속 그림 받기
-pymupdf>=1.28                 # PDF 읽기·페이지 렌더링
-numpy>=2.2                    # 수치 검산
-sympy>=1.14                   # 기호 계산 검산 (행렬 곱, 방정식)
-matplotlib>=3.10              # 풀이용 그림

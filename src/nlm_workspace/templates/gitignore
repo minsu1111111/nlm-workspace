@@ -1,0 +1,29 @@
+# 강의 원본·과제·개인 자료는 올리지 않는다 (저작권, 학번·이름 같은 개인정보, 용량).
+# 폴더 구조만 .gitkeep으로 남기고, 새 PC에서는 `nlmw restore --all`로 NotebookLM에서 다시 받는다.
+01_upload/*
+02_from-lm/*
+03_work/*
+04_final/*
+inbox/*
+!*/.gitkeep
+
+# 개인 설정과 내 노트북 목록
+CLAUDE.local.md
+notebooks.md
+
+# 로그인 정보 (nlm 쿠키는 ~/.notebooklm-mcp-cli 에 있지만 혹시 대비)
+cookies.json
+*.cookies
+.env
+
+# 파이썬·OS 부산물
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+*.crdownload
+Thumbs.db
+desktop.ini
+.DS_Store
+.claude/

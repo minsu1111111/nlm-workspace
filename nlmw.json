@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "folders": {
+    "upload": "01_upload",
+    "from_lm": "02_from-lm",
+    "work": "03_work",
+    "final": "04_final",
+    "inbox": "inbox"
+  },
+  "profile": null
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nlm-workspace"
+version = "0.2.0"
+description = "NotebookLM(nlm CLI) + Claude Code 공부·과제 작업 폴더 도구: 업로드, 동기화, 소스·그림·스튜디오 결과물 내려받기, HTML→PDF"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "notebooklm-mcp-cli>=0.12.0",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+# 풀이·검산·그림에 쓰는 라이브러리 (Claude Code가 계산 검산할 때 사용)
+study = ["pymupdf>=1.24", "numpy>=1.26", "sympy>=1.12", "matplotlib>=3.8"]
+
+[project.scripts]
+nlmw = "nlm_workspace.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/minsu1111111/nlm-workspace"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nlm_workspace = ["templates/*"]
