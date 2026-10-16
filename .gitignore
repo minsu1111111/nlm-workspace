@@ -1,0 +1,25 @@
+# 강의 원본·과제·개인 자료는 올리지 않는다 (저작권, 학번·이름 등 개인정보, 용량 수백 MB).
+# 폴더 구조만 .gitkeep으로 남긴다. 새 PC에서는 python tools/restore.py로 NotebookLM에서 다시 받는다.
+01_upload/*
+02_from-lm/*
+03_work/*
+04_final/*
+inbox/*
+!01_upload/.gitkeep
+!02_from-lm/.gitkeep
+!03_work/.gitkeep
+!04_final/.gitkeep
+!inbox/.gitkeep
+
+# 로그인 정보 (nlm 쿠키는 ~/.notebooklm-mcp-cli 에 있어 원래 여기 없지만 혹시 대비)
+cookies.json
+*.cookies
+.env
+
+# 파이썬·OS 부산물
+__pycache__/
+*.pyc
+*.crdownload
+Thumbs.db
+desktop.ini
+.claude/
