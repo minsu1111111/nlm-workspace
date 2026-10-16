@@ -8,8 +8,8 @@ inbox/*
 !*/.gitkeep
 
 # 개인 설정과 내 노트북 목록
-CLAUDE.local.md
-notebooks.md
+/CLAUDE.local.md
+/notebooks.md
 
 # 로그인 정보 (nlm 쿠키는 ~/.notebooklm-mcp-cli 에 있지만 혹시 대비)
 cookies.json
